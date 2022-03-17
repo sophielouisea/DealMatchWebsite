@@ -143,7 +143,7 @@ if display:
          'distance_target<=>investor': list(response['distance_target<=>investor'].values()),
          'Rationale': list(response['Rationale'].values())})
     response_df = pd.DataFrame(
-        response_df, index=list(range(0, response_df.shape[0])))
+        response_df, index=list(range(0, 10)))
     response_df.index = np.arange(1, len(response_df)+1)
     st.dataframe(response_df)
 
