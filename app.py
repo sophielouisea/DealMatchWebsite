@@ -10,10 +10,11 @@ import plotly.express as px
 from plotly.graph_objs import *
 import streamlit.components.v1 as components
 
+st.set_page_config(page_title='DealMatch - Recommendation Engine')
 
 # ---- Welcome text
 st.markdown("""
-         # DealCircle recommender
+         # DealMatch - Recommendation Engine
          Welcome to the recommender app 👋. \n
          Let's match investors and target companies for a higher chance of a successful deal!
 
