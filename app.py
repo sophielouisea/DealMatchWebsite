@@ -5,10 +5,8 @@ import streamlit as st
 import requests
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 import plotly.express as px
 from plotly.graph_objs import *
-import streamlit.components.v1 as components
 
 st.set_page_config(page_title='DealMatch - Recommendation Engine')
 
